@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ukrainian Refugees Sentiment Analysis | Moneera Yassien</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">MY</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="project-detail">
+        <header class="project-header">
+            <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+            <div class="project-meta-detail">
+                <span class="project-theme-tag">Applied AI & NLP</span>
+                <span class="project-year-detail">2023</span>
+                <span class="project-role-detail">Lead</span>
+            </div>
+            <h1>Ukrainian Refugees Sentiment Analysis</h1>
+            <p class="project-subtitle">Real-time social media analytics for humanitarian response in the Netherlands</p>
+        </header>
+
+        <section class="project-content">
+            <div class="project-overview">
+                <h2>Overview</h2>
+                <p>Built a real-time social media analytics pipeline to assess public sentiment on Ukrainian refugees in the Netherlands and understand how digital discourse shapes refugee decision-making. The project combined transformer-based NLP with longitudinal analysis to surface patterns relevant to humanitarian response and policy.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>What I Built</h2>
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>Twitter Data Pipeline</h3>
+                        <p>Real-time data collection using Python and Tweepy, targeting geolocated tweets in Dutch and English.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Transformer Classification</h3>
+                        <p>Integrated Hugging Face's cardiffnlp/twitter-roberta-base-sentiment model for sentiment classification.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Longitudinal Tracking</h3>
+                        <p>Mapped sentiment spikes to political decisions, media coverage, and border policy changes over time.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Push-Pull Analysis</h3>
+                        <p>Explored Ukrainian-language tweets to understand how refugees describe decisions to flee and perceptions of destinations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Technical Approach</h2>
+                <ul class="approach-list">
+                    <li><strong>Data Collection:</strong> Twitter API with geolocation filters and multilingual keyword tracking</li>
+                    <li><strong>Classification:</strong> CardiffNLP's RoBERTa model fine-tuned on Twitter sentiment</li>
+                    <li><strong>Analysis:</strong> Time series analysis correlating sentiment with external events</li>
+                    <li><strong>Ethics:</strong> Careful consideration of bias, anonymity, and representativeness</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Policy Impact</h2>
+                <p>The analysis provided insights into how public discourse shapes the refugee experience and policy environment. Findings highlighted the importance of monitoring digital sentiment for humanitarian response planning and the ethical considerations of using social media data for vulnerable populations.</p>
+            </div>
+
+            <div class="project-tags-section">
+                <h3>Skills & Methods</h3>
+                <ul class="project-tags-detail">
+                    <li>Python</li>
+                    <li>Tweepy</li>
+                    <li>Hugging Face</li>
+                    <li>Transformers</li>
+                    <li>Sentiment Analysis</li>
+                    <li>Humanitarian Analytics</li>
+                </ul>
+            </div>
+        </section>
+
+        <nav class="project-nav">
+            <a href="nexus.html" class="nav-next">Next: Nexus — UN OSAA →</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© 2025 Moneera Yassien</p>
+            <p class="footer-note">Economist · Data Scientist · AI Researcher</p>
+        </div>
+    </footer>
+</body>
+</html>

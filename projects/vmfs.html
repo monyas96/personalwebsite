@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMFS — Verification Mechanism Feasibility Scorer | Moneera Yassien</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">MY</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="project-detail">
+        <header class="project-header">
+            <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+            <div class="project-meta-detail">
+                <span class="project-theme-tag">AI Safety & Governance</span>
+                <span class="project-year-detail">2025</span>
+                <span class="project-role-detail">Co-Creator</span>
+            </div>
+            <h1>VMFS</h1>
+            <p class="project-subtitle">Verification Mechanism Feasibility Scorer — A decision support tool for AI treaty negotiations</p>
+        </header>
+
+        <section class="project-content">
+            <div class="project-overview">
+                <h2>Overview</h2>
+                <p>Despite growing international interest in verifiable AI governance—from the 2023 Bletchley Declaration to the 2025 Paris AI Action Summit—treaty negotiators and policy makers lack a systematic framework for comparing verification mechanisms. VMFS bridges this gap with a multi-dimensional evaluation tool scoring proposals across four dimensions, empowering UN/G7 forums, diplomats, and policy makers to design feasible, halt-capable treaties.</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--color-ink-muted);">Developed with <strong>Apart Research</strong> in collaboration with Yatharth Maheshwari, Valeriia Povergo, Jayani Srinivasan, Erik J. Leklem, and Alexandra Moraru.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Live Application</h2>
+                <div class="live-app-cta">
+                    <a href="https://www.vmfs.app/" target="_blank" rel="noopener" class="app-link">
+                        <span class="app-link-icon">🚀</span>
+                        <span class="app-link-text">
+                            <strong>Launch VMFS Dashboard</strong>
+                            <span>www.vmfs.app</span>
+                        </span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>The Four Scoring Dimensions</h2>
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>Evidence Hardness</h3>
+                        <p><strong>"Trust" Score</strong> — Is the evidence based on math/physics (Hard) or human trust (Soft)?</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Infrastructure Burden</h3>
+                        <p><strong>"Cost" Score</strong> — Does it require building new hardware (High Burden) or just passing laws (Low Burden)?</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Intrusion Burden</h3>
+                        <p><strong>"Friction" Score</strong> — How much secret data (IP, Weights) is exposed?</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Robustness</h3>
+                        <p><strong>"Cheating" Score</strong> — How easy or hard is it to spoof or hide from this mechanism?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Mechanisms Analyzed</h2>
+                <p>We scored nine verification mechanisms across all four dimensions (1-5 scale), revealing systematic trade-offs:</p>
+                <ul class="approach-list">
+                    <li><strong>Model Watermarking</strong> — Leads overall at 4.1 for low intrusion</li>
+                    <li><strong>TEE Attestation</strong> — High evidence hardness (5.0) but constrained by infrastructure burden (1.0)</li>
+                    <li><strong>Remote Sensing</strong> — Average 3.6, good for facility monitoring</li>
+                    <li><strong>OPCW-style Declarations</strong> — Self-reporting mechanisms</li>
+                    <li><strong>On-chip Telemetry</strong> — Hardware-based compute monitoring</li>
+                    <li><strong>Model Audits</strong> — Safety verification at model level</li>
+                    <li><strong>Whistleblower Systems</strong> — Addressing undeclared activity</li>
+                    <li><strong>UN SAB Confidential Verification</strong> — Institutional approaches</li>
+                    <li><strong>National Technical Means</strong> — Remote monitoring (START-inspired)</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Key Findings</h2>
+                <div class="findings-box">
+                    <p><strong>No silver bullet exists</strong> — No mechanism tops 4.1 across all dimensions. Layered portfolios are essential (e.g., remote sensing + audits + whistleblowers).</p>
+                    <p><strong>Trade-offs are systematic</strong> — High-hardness mechanisms impose high burden and intrusion, while low-cost mechanisms sacrifice evidentiary strength.</p>
+                    <p><strong>Coverage clusters by evidence location</strong> — Audits verify model safety, telemetry tracks compute use, sensing monitors facilities, whistleblowers address undeclared activity.</p>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Application Features</h2>
+                <ul class="approach-list">
+                    <li><strong>Interactive Dashboard</strong> — Explore mechanism trade-offs visually</li>
+                    <li><strong>Portfolio Sandbox</strong> — Construct and test layered verification portfolios</li>
+                    <li><strong>Submission Interface</strong> — Submit new mechanisms for evaluation</li>
+                    <li><strong>Decision Support</strong> — Identify coverage gaps for treaty design</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Policy Relevance</h2>
+                <p>VMFS enables "halt-capable" governance regimes that can verify compute pauses or unsafe deployments. The tool bridges the policy-tech gap, providing structured decision support for treaty negotiations at UN, G7, and INAI forums. Future work will address Global South dimensions to ensure equity—hardware-heavy methods risk North-South divides without tiered provisions or tech transfer.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Resources</h2>
+                <div class="resource-links">
+                    <a href="https://www.vmfs.app/" target="_blank" rel="noopener" class="resource-link">
+                        <span class="resource-icon">🌐</span>
+                        <span class="resource-text">
+                            <strong>Live Application</strong>
+                            <span>www.vmfs.app</span>
+                        </span>
+                    </a>
+                    <a href="https://github.com/r34l-rudr44/vmfs" target="_blank" rel="noopener" class="resource-link">
+                        <span class="resource-icon">💻</span>
+                        <span class="resource-text">
+                            <strong>GitHub Repository</strong>
+                            <span>Open-source codebase</span>
+                        </span>
+                    </a>
+                    <a href="https://sites.google.com/view/vmfs-demo-video/home" target="_blank" rel="noopener" class="resource-link">
+                        <span class="resource-icon">🎬</span>
+                        <span class="resource-text">
+                            <strong>Demo Video</strong>
+                            <span>Video walkthrough</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-tags-section">
+                <h3>Skills & Methods</h3>
+                <ul class="project-tags-detail">
+                    <li>AI Governance</li>
+                    <li>Verification Mechanisms</li>
+                    <li>Treaty Design</li>
+                    <li>Decision Support Systems</li>
+                    <li>Multi-criteria Scoring</li>
+                    <li>Policy Translation</li>
+                    <li>Dashboard Development</li>
+                </ul>
+            </div>
+        </section>
+
+        <nav class="project-nav">
+            <a href="nexus.html" class="nav-prev">← Previous: Nexus</a>
+            <a href="mirror-analysis.html" class="nav-next">Next: Mirror Analysis →</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© 2025 Moneera Yassien</p>
+            <p class="footer-note">Economist · Data Scientist · AI Researcher</p>
+        </div>
+    </footer>
+</body>
+</html>

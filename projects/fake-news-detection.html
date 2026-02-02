@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection | Moneera Yassien</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="../index.html" class="nav-logo">MY</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#publications">Publications</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="project-detail">
+        <header class="project-header">
+            <a href="../index.html#projects" class="back-link">← Back to Projects</a>
+            <div class="project-meta-detail">
+                <span class="project-theme-tag">Applied AI & NLP</span>
+                <span class="project-year-detail">2025</span>
+                <span class="project-role-detail">Lead</span>
+            </div>
+            <h1>Disentangling Truth from Noise</h1>
+            <p class="project-subtitle">An interpretable machine learning approach to fake news detection</p>
+        </header>
+
+        <section class="project-content">
+            <div class="project-overview">
+                <h2>Overview</h2>
+                <p>This project designed an interpretable machine learning pipeline to detect fake news, prioritizing transparency and explainability alongside performance. The goal was to build tools that could help protect democratic information ecosystems while remaining understandable to non-technical stakeholders.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>What I Built</h2>
+                <div class="highlight-grid">
+                    <div class="highlight-card">
+                        <h3>Data Pipeline</h3>
+                        <p>Merged and cleaned fake vs. real news datasets from KaggleHub into a structured corpus for analysis and modeling.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Feature Engineering</h3>
+                        <p>Engineered textual (TF-IDF, n-grams), temporal (publication trends), and structural (title-body similarity) features.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>ML Pipeline</h3>
+                        <p>Built and evaluated multiple classifiers in Scikit-learn: Logistic Regression, Random Forest, and Gradient Boosted Trees.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Explainability</h3>
+                        <p>Prioritized model transparency through coefficient visualization, feature importances, and clear classification rationale.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Technical Approach</h2>
+                <ul class="approach-list">
+                    <li><strong>Exploratory Analysis:</strong> Title/body length distributions, word frequency analysis, publication trends</li>
+                    <li><strong>Feature Set:</strong> TF-IDF vectors, n-gram features, punctuation patterns, coherence metrics</li>
+                    <li><strong>Models:</strong> Logistic Regression (baseline), Random Forest (interpretability), GBT (performance)</li>
+                    <li><strong>Evaluation:</strong> Precision, recall, F1-score with emphasis on false positive minimization</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Policy Impact</h2>
+                <p>The project framed misinformation detection for real-world impact in democratic ecosystems, demonstrating how technical tools can support information integrity while maintaining transparency about their limitations and potential biases.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Resources</h2>
+                <div class="resource-links">
+                    <a href="https://github.com/monyas96/TBI-test/blob/main/TBI%20test_Moneera%20Yassien.ipynb" target="_blank" rel="noopener" class="resource-link">
+                        <span class="resource-icon">💻</span>
+                        <span class="resource-text">
+                            <strong>GitHub Notebook</strong>
+                            <span>Complete ML pipeline implementation</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="project-tags-section">
+                <h3>Skills & Methods</h3>
+                <ul class="project-tags-detail">
+                    <li>Python</li>
+                    <li>Scikit-learn</li>
+                    <li>NLP</li>
+                    <li>Feature Engineering</li>
+                    <li>Explainable AI</li>
+                    <li>Classification</li>
+                </ul>
+            </div>
+        </section>
+
+        <nav class="project-nav">
+            <a href="vnr-thematic-analysis.html" class="nav-next">Next: VNR Thematic Analysis →</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>© 2025 Moneera Yassien</p>
+            <p class="footer-note">Economist · Data Scientist · AI Researcher</p>
+        </div>
+    </footer>
+</body>
+</html>
