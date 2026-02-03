@@ -217,18 +217,21 @@ img {
 .cv-button {
     display: inline-block;
     margin-top: var(--space-md);
-    padding: 0.75em 2em;
-    font-size: 0.85rem;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+    padding: 0.8em 2.5em;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--color-ink);
-    border: 1px solid var(--color-ink);
+    background-color: transparent;
+    border: 1px solid var(--color-rule);
     transition: all 0.3s ease;
     animation: fadeInUp 0.8s ease 0.8s both;
 }
 
 .cv-button:hover {
+    border-color: var(--color-ink);
     background-color: var(--color-ink);
     color: var(--color-paper);
 }
